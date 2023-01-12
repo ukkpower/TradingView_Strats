@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Jumbotron example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Font Awsome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&family=Roboto+Slab:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+</head>
+
+<body>
+    <main>
+        <div id="upper-section">
+            <div class="background-overlay"></div>
+            <div class="container py-4">
+
+                <header
+                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between pb-3 mb-4 border-bottom">
+                    <a href="/" class="d-flex align-items-center text-decoration-none">
+                        <img class="me-3" src="imgs/logo.png" alt="TaderIQ" height="40px">
+                        <span class="fs-4">TraderIQ</span>
+                    </a>
+                    <div class="col-md-3 text-end">
+                        <a href="#" class="cart position-relative d-inline-flex text-decoration-none me-4 align-middle"
+                            aria-label="View your shopping cart">
+                            <i class="fas fa fa-shopping-cart fa-lg"></i>
+                            <span class="cart-basket d-flex align-items-center justify-content-center">
+                                0
+                            </span>
+                        </a>
+                        <button type="button" class="btn btn-primary support">Support</button>
+                    </div>
+                </header>
+                <div class="container-fluid py-5 chart-bg">
+                    <div class="col-md-8">
+                        <h1 class="display-5 fw-bold opening-title">The power of the indicator</h1>
+                        <h1>Begins with an <span class="badge rounded-pill bg-success me-2">Buy</span><span
+                                class="badge rounded-pill bg-danger">Sell</span></h1>
+                        <h1>Signal you can trust</h1>
+                        <p>Indicators can be a powerful tool in trading but alone are nit enough to consistency beat the
+                            market. Combining indicators can certainly increase win rates but more often they can
+                            contradict each other.</p>
+                        <p class="fw-light">We have backtested winning Tradingview strategies and combined the
+                            indicators into a single BUY/SELL package that can be easy customised and back tested to
+                            match your trading style.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="strats">
+            <div class="container mb-5">
+                <div class="d-flex justify-content-center row">
+                    <div class="col-md-10">
+                        <h2 class="text-center mb-5 mt-5 opening-title">BACKTEST, CUSTOMISE, TRADE</h2>
+                        <!-- Package -->
+                        <div class="package">
+                            
+                            <div class="package-inner row p-2 border border-4 rounded">
+                                <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                        src="imgs/thumbs/0.jpg"></div>
+                                <div class="col-md-6 mt-1">
+                                    <h5>Package Offer - Top 10</h5>
+                                    <p class="text-justify mb-0">Buy Now the 10 best of the backtested strategies in
+                                        one
+                                        package to save on a discount.<br><br></p>
+                                </div>
+                                <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                    <div class="d-flex flex-column mt-4">
+                                        <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                        <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="package-offer row position-relative">
+                                <div class="package-background-overlay"></div>
+                                <h5 class="col-8 position-relative">Discount Price</h5>
+                                <div class="col-4 position-relative">
+                                    <h4 class="me-1 fw-bold">$50</h4><span
+                                        class="text-decoration-line-through">$100</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 1 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/2.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>This Magic TradingView Indicator Predicts The Future</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Smartmoney</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">Today I will teach you one of the smartest Order Block (ICT)
+                                    scalping strategies that will make your first $50,000. This strategy includes 2 free
+                                    to
+                                    use Trading View indicators that can accurately predict the direction of the market.
+                                    I
+                                    will also explain what order block is in trading and how to use it in our advantage.
+                                </p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 2 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/3.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>2 MAGIC TradingView Indicators That Will Make You Rich ( Avoid 95% Of False Signals
+                                    )
+                                </h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">In this video I will show you two powerful trend following
+                                    indicators that will make you rich. These tools can eliminate up to 95% of false
+                                    trade
+                                    entries, which no doubt gives you a massive advantage over other market players.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 3 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/5.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>I Tested 99% Win Rate 1 Minute Scalping Trading Strategy For Crypto</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">This video is related to TradingView indicators, Indicator
+                                    Strategy,
+                                    Scalping Strategy, Best Trading Strategy, Day Trading, Swing Trading, Day Trading
+                                    Forex,
+                                    Scalping Forex, Scalping Crypto.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 4 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/6.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>Make $200/Day From Trading Stocks With This Crazy Accurate Scalping Strategy</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">Today I will show my ultimate vwap qqe strategy for trading
+                                    stocks
+                                    that’s almost never wrong when it comes to trade entries. If used correctly this
+                                    method
+                                    can double, triple or even quadruple your account size in the matter of weeks.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 5 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/7.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>3 Most Accurate TradingView Indicators For Scalping, Day Trading, Swing Trading</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">Having a good indicator for trading is super important because
+                                    such
+                                    tool can provide you with accurate entry signals which in it’s turn gives you a
+                                    massive
+                                    advantage over other market players. But finding a really good indicator is probably
+                                    one
+                                    of the hardest challenges one might face as there are thousands of different options
+                                    out
+                                    there 99% of which are total trash. So in today’s I will give you my new top 3
+                                    tradingview indicators for scalping, day trading and swing trading that will
+                                    instantly
+                                    give you an edge in the market.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 6 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/8.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>Smart Money Concepts: The Highest Win Rate Scalping Strategy on The Channel ( 84%
+                                    Real
+                                    Win Rate )</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">In this video you will learn the most accurate scalping strategy
+                                    on
+                                    my channel I have tested so far. This setup includes 3 free TradingView indicators -
+                                    Fluid Trades SMC, Q-Trader and The Money Flow Index with Alerts. Works on all
+                                    timeframes. Suitable for trading forex.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 7 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/9.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>Heikin Ashi RSI: This 1 Minute Scalping Trading Strategy Makes 1741% In Profit</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">The heiken ashi rsi oscillator is probably one of the best
+                                    indicators for scalping on Tradingview. This amazing tool can eliminate the ranging
+                                    market really well and also spot the times when the security is overbought or
+                                    oversold .
+                                    This information is very helpful for retail traders who are looking to get better
+                                    trade
+                                    entries and make more money. However, a vast majority of people don’t quite know how
+                                    to
+                                    use heiken ashi rsi correctly which causes a lot of frustration and blown up
+                                    accounts.
+                                    So in todays video I decided to share my best heiken ashi rsi strategy for trading
+                                    forex
+                                    that will be making you massive profits on a daily basis.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 8 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/10.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>The Most Accurate Harmonic Pattern Indicator For Scalping ( +1340% IN PROFIT )</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">Harmonic patterns are among the most accurate of trading
+                                    signals,
+                                    yet they're widely underutilized. This is because they can be difficult to spot and
+                                    tedious to validate. But the indicator I’m about to show you in this video will
+                                    solve
+                                    all these problems. It will automatically spot the best harmonic patterns in the
+                                    price
+                                    action and evaluate them so that you can easily differentiate weak patterns from
+                                    strong
+                                    ones. I will also give you the best strategy with this indicator that you can follow
+                                    right away and make good and consistent profits.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 9 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/11.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>The Best 1 Minute Scalping Trading Strategy On The Channel ( 1057% Gain )</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">If you’ve been looking for a perfect 1 minute scalping strategy
+                                    that
+                                    could make you profits like this consistently from any market this video is exactly
+                                    for
+                                    you. I will teach you exactly how to build the set up step by step and give you
+                                    plenty
+                                    of examples on how to use this strategy so that you start making money right away
+                                    after
+                                    watching this video.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Strat 10 -->
+                        <div class="strat row p-2 rounded mt-4">
+                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                    src="imgs/thumbs/12.jpg"></div>
+                            <div class="col-md-6 mt-1">
+                                <h5>RSI MACD Stochastic 99% High Accuracy Trading Strategy Tested 100 Times</h5>
+                                <div class="mt-1 mb-1 package-tags"><span>Trend</span><span
+                                        class="dot"></span><span>Scalping</span></div>
+                                <p class="package-desc">In this video I will test the MACD RSI Stochastic trading
+                                    strategy
+                                    by Trader DNA to find how much money it could potentially make after 100 trades.</p>
+                            </div>
+                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mr-1">$20.00</h4>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <button class="btn buy-now btn-sm" type="button">Buy Now</button>
+                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <h6 class="pt-5">DISCLAIMER:</h6>
+                <p>The following indicators are provided for educational purposes only and should not be used for trading without rigorous backtesting and customization to your selected market and timeframe. We do not accept any responsibility for any trades using these strategies. They are only intended to serve as a starting point for building your own strategies.</p>
+                <p>Trading carries significant risk and individuals should carefully consider all risk factors, including their own personal financial situation, before deciding to trade. All individuals are solely responsible for their own trades and investments.</p>
+            </div>
+        </div>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img class="me-3" src="imgs/logo.png" alt="TaderIQ" height="20px">
+                </a>
+                <span class="text-muted">© 2023 TraderIQ</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/@TradeIQ"><i class="fa fa-youtube-play fs-3" aria-hidden="true"></i></a></li>
+              </ul>
+            </footer>
+          </div>
+    </main>
+
+</body>
+
+</html>

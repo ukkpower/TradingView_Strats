@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #17202a;
+}
+
+a {
+    color: #fff;
+}
+
+h2, h5 {
+    color: #FFDD30;
+}
+
+.support {
+    color: #54575A;
+    border: none !important;    
+}
+
+.btn-primary {
+    background-color: #FFDD30;
+}
+
+.buy-now {
+    color: #54575A;
+    border: none !important;
+
+    background-image: radial-gradient( circle 929px at 0.6% 1.3%,  rgba(248,251,10,1) 0%, rgba(248,47,47,1) 82.6% );
+}
+
+#upper-section {
+    position: relative;
+}
+
+.background-overlay {
+    background-image: url(https://demo.moxcreative.com/prokit/wp-content/uploads/sites/32/2021/05/crossing-line-patterned-background.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.opening-title {
+    font-family: 'Roboto Slab', serif;
+}
+
+.chart-bg {
+    background-image: url(../imgs/chart.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right
+}
+
+#strats {
+    background-color: #30363D;
+    overflow: auto;
+}
+
+.strat   {
+    background-color: #3C444C;
+}
+
+.package {
+    position: relative;
+}
+
+.package-inner {
+    background-color: #17202A;
+}
+
+.package-background-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(115deg, #17202A 0%, #17202ADE 100%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.package-offer {
+    background-image: url(https://demo.moxcreative.com/prokit/wp-content/uploads/sites/32/2021/05/bg__1.png);
+    background-position: center center;
+    background-size: 25% auto;
+    padding: 20px;
+    background-color: #17202A;
+    border-radius: 0 0 1rem 1rem;
+    overflow: auto;
+}
+
+.package-desc {
+    font-size: 0.8em;
+}
+
+.package-tags {
+    color: darkgray;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 3px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: inline-block;
+}
+.cart {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.cart-basket {
+    font-size: .6rem;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    background-color: #198754;
+    border-radius: 50%;
+  }
